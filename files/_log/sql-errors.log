@@ -1,0 +1,1394 @@
+[2020-02-20 00:53:13] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_count
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_count'
+  Backtrace :
+  plugins/dashboard/hook.php:89                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.003\", 1.46Mio)"} 
+[2020-02-20 00:53:13] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_map
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_map'
+  Backtrace :
+  plugins/dashboard/hook.php:92                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.47Mio)"} 
+[2020-02-20 00:53:13] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_config
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_config'
+  Backtrace :
+  plugins/dashboard/hook.php:95                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.47Mio)"} 
+[2020-02-20 00:53:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_count
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_count'
+  Backtrace :
+  plugins/dashboard/hook.php:89                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.002\", 1.15Mio)"} 
+[2020-02-20 00:53:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_map
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_map'
+  Backtrace :
+  plugins/dashboard/hook.php:92                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.15Mio)"} 
+[2020-02-20 00:53:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_config
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_config'
+  Backtrace :
+  plugins/dashboard/hook.php:95                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.15Mio)"} 
+[2020-02-20 19:54:34] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '4'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  front/dropdown.common.form.php:75                  CommonDropdown->isUsed()
+  front/requesttype.form.php:36                      include()
+  {"user":"2@glpi","mem_usage":"0.002\", 1.44Mio)"} 
+[2020-02-20 19:54:34] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '4'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  front/dropdown.common.form.php:82                  CommonDBTM->delete()
+  front/requesttype.form.php:36                      include()
+  {"user":"2@glpi","mem_usage":"0.003\", 1.69Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '1'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.003\", 1.93Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '1'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.002\", 2.17Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '2'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.005\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '2'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.001\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '3'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.007\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '3'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.002\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '5'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.004\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '5'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.001\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '6'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.006\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '6'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.002\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '7'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.004\", 2.19Mio)"} 
+[2020-02-20 19:55:05] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '7'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.005\", 2.19Mio)"} 
+[2020-02-20 19:57:12] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_configs` WHERE `default_requesttypes_id` = '9'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondropdown.class.php:581                   DBmysql->request()
+  inc/massiveaction.class.php:1063                   CommonDropdown->isUsed()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.003\", 1.92Mio)"} 
+[2020-02-20 19:57:12] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `default_requesttypes_id` = '9'
+  Error: Unknown column 'default_requesttypes_id' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:78                   
+  inc/dbmysql.class.php:583                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:679                       DBmysql->request()
+  inc/commondbtm.class.php:597                       CommonDBTM->cleanRelationData()
+  inc/commondbtm.class.php:1501                      CommonDBTM->deleteFromDB()
+  inc/massiveaction.class.php:1073                   CommonDBTM->delete()
+  inc/massiveaction.class.php:988                    MassiveAction::processMassiveActionsForOneItemtype()
+  inc/massiveaction.class.php:967                    MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:59                         MassiveAction->process()
+  {"user":"2@glpi","mem_usage":"0.006\", 2.17Mio)"} 
+[2020-02-20 20:43:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_count
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_count'
+  Backtrace :
+  plugins/dashboard/hook.php:89                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.002\", 1.47Mio)"} 
+[2020-02-20 20:43:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_map
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_map'
+  Backtrace :
+  plugins/dashboard/hook.php:92                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.47Mio)"} 
+[2020-02-20 20:43:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: DROP TABLE glpi_plugin_dashboard_config
+  Error: Unknown table 'glpi.glpi_plugin_dashboard_config'
+  Backtrace :
+  plugins/dashboard/hook.php:95                      
+  inc/plugin.class.php:655                           plugin_dashboard_uninstall()
+  front/plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@glpi","mem_usage":"0.000\", 1.47Mio)"} 
+[2020-02-20 22:25:23] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"2@glpi","mem_usage":"0.002\", 1.51Mio)"} 
+[2020-02-20 22:55:46] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"2@glpi","mem_usage":"0.002\", 1.52Mio)"} 
+[2020-02-20 23:53:31] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 1.92Mio)"} 
+[2020-02-21 00:21:42] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 1.91Mio)"} 
+[2020-02-21 00:21:56] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/indexw.php:22      include()
+  {"user":"12@glpi","mem_usage":"0.001\", 1.91Mio)"} 
+[2020-02-21 00:21:59] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 1.91Mio)"} 
+[2020-02-21 00:22:04] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 1.91Mio)"} 
+[2020-02-21 22:59:49] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.203\", 1.91Mio)"} 
+[2020-02-21 22:59:49] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.051\", 1.97Mio)"} 
+[2020-02-21 23:20:20] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_groups_tickets` (`groups_id`, `type`, `tickets_id`) VALUES ('1', '2', '10')
+  Error: Duplicate entry '10-2-1' for key 'unicity'
+  Backtrace :
+  inc/dbmysql.class.php:917                          
+  inc/commondbtm.class.php:537                       DBmysql->insert()
+  inc/commondbtm.class.php:974                       CommonDBTM->addToDB()
+  inc/commonitilobject.class.php:811                 CommonDBTM->add()
+  inc/ticket.class.php:1342                          CommonITILObject->prepareInputForUpdate()
+  inc/commondbtm.class.php:1196                      Ticket->prepareInputForUpdate()
+  front/ticket.form.php:73                           CommonDBTM->update()
+  {"user":"16@glpi","mem_usage":"0.033\", 2.95Mio)"} 
+[2020-02-24 17:06:04] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.01Mio)"} 
+[2020-02-24 23:24:07] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-24 23:24:29] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-24 23:24:29] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/indexw.php:22      include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-24 23:24:33] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-24 23:24:40] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-25 00:17:34] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.20Mio)"} 
+[2020-02-25 17:44:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.22Mio)"} 
+[2020-02-25 17:59:19] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.23Mio)"} 
+[2020-02-25 17:59:32] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.002\", 2.23Mio)"} 
+[2020-02-25 17:59:37] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/indexw.php:22      include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.24Mio)"} 
+[2020-02-25 17:59:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.23Mio)"} 
+[2020-02-25 18:03:27] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.24Mio)"} 
+[2020-02-25 18:05:29] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.24Mio)"} 
+[2020-02-25 18:20:36] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.25Mio)"} 
+[2020-02-25 18:42:51] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.26Mio)"} 
+[2020-02-25 20:33:06] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_groups_tickets` (`groups_id`, `type`, `tickets_id`) VALUES ('1', '2', '18')
+  Error: Duplicate entry '18-2-1' for key 'unicity'
+  Backtrace :
+  inc/dbmysql.class.php:917                          
+  inc/commondbtm.class.php:537                       DBmysql->insert()
+  inc/commondbtm.class.php:974                       CommonDBTM->addToDB()
+  inc/commonitilobject.class.php:811                 CommonDBTM->add()
+  inc/ticket.class.php:1342                          CommonITILObject->prepareInputForUpdate()
+  inc/commondbtm.class.php:1196                      Ticket->prepareInputForUpdate()
+  front/ticket.form.php:73                           CommonDBTM->update()
+  {"user":"16@glpi","mem_usage":"0.032\", 3.07Mio)"} 
+[2020-02-26 00:07:19] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.004\", 1.99Mio)"} 
+[2020-02-26 00:07:19] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 2.05Mio)"} 
+[2020-02-26 00:09:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.99Mio)"} 
+[2020-02-26 00:09:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.05Mio)"} 
+[2020-02-26 00:10:02] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.99Mio)"} 
+[2020-02-26 00:10:02] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.05Mio)"} 
+[2020-02-26 00:12:23] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.99Mio)"} 
+[2020-02-26 00:12:23] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.06Mio)"} 
+[2020-02-26 00:13:27] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.99Mio)"} 
+[2020-02-26 00:13:27] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.06Mio)"} 
+[2020-02-26 00:17:07] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '7'  OR `glpi_knowbaseitems_users`.`users_id` = '7'  OR (`glpi_groups_knowbaseitems`.`groups_id`
+                                    IN ('2')
+                               AND (`glpi_groups_knowbaseitems`.`entities_id` < 0
+                                    OR (  1 ) ))  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '6'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"7@glpi","mem_usage":"0.002\", 1.61Mio)"} 
+[2020-02-26 00:17:07] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '7'  OR `glpi_knowbaseitems_users`.`users_id` = '7'  OR (`glpi_groups_knowbaseitems`.`groups_id`
+                                    IN ('2')
+                               AND (`glpi_groups_knowbaseitems`.`entities_id` < 0
+                                    OR (  1 ) ))  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '6'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"7@glpi","mem_usage":"0.001\", 1.67Mio)"} 
+[2020-02-26 00:17:47] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.91Mio)"} 
+[2020-02-26 00:17:47] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 1.97Mio)"} 
+[2020-02-26 00:20:57] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.91Mio)"} 
+[2020-02-26 00:20:57] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 1.98Mio)"} 
+[2020-02-26 00:21:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_knowbaseitemcategories` (`entities_id`, `is_recursive`, `name`, `comment`, `knowbaseitemcategories_id`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '0', 'Oracle', '', '0', '1', 'Oracle', '2020-02-26 00:21:28', '2020-02-26 00:21:28')
+  Error: Duplicate entry '0-0-Oracle' for key 'unicity'
+  Backtrace :
+  inc/dbmysql.class.php:917                          
+  inc/commondbtm.class.php:537                       DBmysql->insert()
+  inc/commondbtm.class.php:974                       CommonDBTM->addToDB()
+  front/dropdown.common.form.php:54                  CommonDBTM->add()
+  front/knowbaseitemcategory.form.php:36             include()
+  {"user":"16@glpi","mem_usage":"0.005\", 1.91Mio)"} 
+[2020-02-26 00:27:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT COUNT(`glpi_knowbaseitems`.`id`)
+                             FROM `glpi_knowbaseitems`
+                              LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                             WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (MATCH(`glpi_knowbaseitems`.`name`,
+                                             `glpi_knowbaseitems`.`answer`)
+                          AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AND (`glpi_knowbaseitems`.`begin_date` IS NULL
+                                   OR `glpi_knowbaseitems`.`begin_date` < NOW())
+                             AND (`glpi_knowbaseitems`.`end_date` IS NULL
+                                  OR `glpi_knowbaseitems`.`end_date` > NOW()) 
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1252                    
+  inc/knowbaseitem.class.php:1352                    KnowbaseItem::getListRequest()
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.002\", 1.92Mio)"} 
+[2020-02-26 00:27:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_knowbaseitems`.*,
+                       `glpi_knowbaseitemcategories`.`completename` AS category
+                       
+                        ,(MATCH(`glpi_knowbaseitems`.`name`, `glpi_knowbaseitems`.`answer`)
+                           AGAINST('ERROR* SIISNE* (Correo* Nro.09)*' IN BOOLEAN MODE) ) AS SCORE 
+                FROM `glpi_knowbaseitems`
+                 LEFT JOIN `glpi_knowbaseitems_users`
+                     ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_groups_knowbaseitems`
+                        ON (`glpi_groups_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_knowbaseitems_profiles`
+                        ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`)  LEFT JOIN `glpi_entities_knowbaseitems`
+                        ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id`
+                              = `glpi_knowbaseitems`.`id`) 
+                LEFT JOIN `glpi_knowbaseitemcategories`
+                     ON (`glpi_knowbaseitemcategories`.`id`
+                           = `glpi_knowbaseitems`.`knowbaseitemcategories_id`)
+                WHERE (`glpi_knowbaseitems`.`users_id` = '16'  OR `glpi_knowbaseitems_users`.`users_id` = '16'  OR (`glpi_knowbaseitems_profiles`.`profiles_id`
+                                    = '4'
+                               AND (`glpi_knowbaseitems_profiles`.`entities_id` < 0
+                                    OR (  1 ) )) OR ( `glpi_entities_knowbaseitems`.`entities_id` IN ('0')  ) )  AND (`glpi_knowbaseitems`.`name`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 OR `glpi_knowbaseitems`.`answer`   LIKE '%ERROR SIISNE Correo Nro.09%' 
+                                 )
+                ORDER BY `SCORE` DESC
+  Error: syntax error, unexpected $end, expecting FTS_TERM or FTS_NUMB or '*'
+  Backtrace :
+  inc/knowbaseitem.class.php:1354                    
+  inc/knowbase.class.php:133                         KnowbaseItem::showList()
+  inc/knowbase.class.php:82                          Knowbase::showSearchView()
+  inc/commonglpi.class.php:478                       Knowbase::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"16@glpi","mem_usage":"0.001\", 1.98Mio)"} 
+[2020-02-26 16:45:27] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"2@glpi","mem_usage":"0.002\", 2.21Mio)"} 
+[2020-02-27 19:51:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.24Mio)"} 
+[2020-02-27 22:57:00] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.21Mio)"} 
+[2020-02-28 23:21:43] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.001\", 2.23Mio)"} 
+[2020-02-28 23:45:08] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.22Mio)"} 
+[2020-03-02 18:04:16] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.002\", 2.23Mio)"} 
+[2020-03-02 22:42:56] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.002\", 2.21Mio)"} 
+[2020-03-02 22:51:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"12@glpi","mem_usage":"0.002\", 2.22Mio)"} 
+[2020-03-02 22:51:43] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0,1,2) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"2@glpi","mem_usage":"0.002\", 2.22Mio)"} 
+[2020-03-02 22:52:13] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0,1,2) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"2@glpi","mem_usage":"0.001\", 2.22Mio)"} 
+[2020-03-03 19:54:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 180
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"16@glpi","mem_usage":"0.001\", 2.25Mio)"} 

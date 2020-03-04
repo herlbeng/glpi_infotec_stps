@@ -1,0 +1,22 @@
+2020-02-21 18:14:18 [12@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 5 retries remaining. Message: [GLPI #0000004] New user in requesters RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 18:14:18 [12@glpi]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000004] Nuevo ticket RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 18:15:11 [12@glpi]
+Warning: an email was undeliverable to hermann.benda@infotec.mx with 5 retries remaining. Message: [GLPI #0000004] Nuevo ticket RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 18:16:07 [16@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 5 retries remaining. Message: [GLPI #0000004] New user in assignees RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 19:11:22 [16@glpi]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000004] Nuevo ticket RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 19:11:22 [16@glpi]
+Warning: an email was undeliverable to hermann.benda@infotec.mx with 4 retries remaining. Message: [GLPI #0000004] Nuevo ticket RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 19:11:22 [16@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 4 retries remaining. Message: [GLPI #0000004] New user in assignees RV: CORREO WISE (Correo Nro.14), Error: Could not instantiate mail function.
+2020-02-21 20:31:46 [@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 5 retries remaining. Message: [GLPI #0000002] New user in assignees ERROR SIISNE (Correo Nro.09), Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 20:37:12 [16@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 4 retries remaining. Message: [GLPI #0000002] New user in assignees ERROR SIISNE (Correo Nro.09), Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 21:39:24 [12@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 5 retries remaining. Message: [GLPI #0000002] New user in assignees ERROR SIISNE (Correo Nro.09), Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 21:39:24 [12@glpi]
+Warning: an email was undeliverable to alberto.mendoza@infotec.mx with 5 retries remaining. Message: [GLPI #0000004] New user in assignees RV: CORREO WISE (Correo Nro.14), Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting

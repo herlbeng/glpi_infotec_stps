@@ -1,0 +1,411 @@
+/*
+    ---------------------------
+    BOARD STYLES
+    ---------------------------
+*/
+
+.ui-tabs {
+   width: 100% !important;
+}
+
+.cd_kanban_minboard {
+   width: 90% !important;
+}
+
+.cd_kanban_board {
+   width: 100%;
+   height: auto;
+   min-height: 400px;
+   display: block;
+   clear: both;
+   /*overflow-x: auto;*/
+   background: #FFF;
+}
+
+.cd_kanban_board > .cd_kanban_board_titles {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   clear: both;
+   font-size: 12px;
+}
+
+.titleright{
+   width: 20%;
+}
+
+.cd_kanban_board > .cd_kanban_board_titles:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+.cd_kanban_board > .cd_kanban_board_titles .cd_kanban_board_title {
+   margin: 0 10px 0 0;
+   padding: 1em;
+   color: #FFF;
+   position: relative;
+   flex: 1;
+   max-width: 302px;
+}
+
+.title {
+   display: flex;
+   /*justify-content: left;*/
+   /*margin-left: 10px;*/
+}
+
+.cd_kanban_board > .cd_kanban_board_titles .cd_kanban_board_title:before {
+   width: 90%;
+   height: 100%;
+   background: #343a40;
+   display: block;
+   clear: both;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   content: "";
+}
+
+.cd_kanban_board > .cd_kanban_board_titles .cd_kanban_board_title p {
+   position: relative;
+   z-index: 10;
+   margin: 0 20px 0 0;
+   display: flex;
+   justify-content: center;
+}
+
+.cd_kanban_board > .cd_kanban_board_titles .cd_kanban_board_title:last-child {
+   margin: 0px;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   clear: both;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block {
+   /*height: 70%;*/
+   min-height: 400px;
+   text-align: left;
+   margin: 10px 10px 10px 0;
+   padding: 1em;
+   flex: 1;
+   background: #e6e6e6;
+   overflow-y: auto;
+   max-width: 300px;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block:last-child {
+   margin: 10px 0 0;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item {
+   /*width: auto; !*100%;*!*/
+   height: auto;
+   margin: 0 0 10px;
+   padding: 0.75rem;
+   position: relative;
+   clear: both;
+   /*background: #FFF;*/
+   border: 1px solid #c0c2cd;
+   -webkit-transition: -webkit-transform 300ms ease-in-out;
+   -moz-transition: -moz-transform 300ms ease-in-out;
+   -ms-transition: -ms-transform 300ms ease-in-out;
+   -o-transition: -o-transform 300ms ease-in-out;
+   transition: transform 300ms ease-in-out;
+   transform: rotate(0deg);
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item:before {
+   width: 95%;
+   height: 100%;
+   background: #F6F6F6;
+   content: "";
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item .cd_kanban_board_block_item_title {
+   /*margin: 0 0 0.25rem;*/
+   padding: 0 0 0 5px;
+   /*background: url("../images/dragger.png") 0px 0px no-repeat;*/
+   font-size: 11px;
+   /*line-height: 1rem;*/
+   font-weight: bold;
+   /*position: relative;*/
+   z-index: 10;
+   width: 80%;
+}
+
+/*.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item.ui-sortable-helper{ transform: rotate(-4deg); }*/
+.cd_kanban_board_block_item_placeholder {
+   width: 100%;
+   color: #F6F6F6;
+   height: 150px;
+   margin: 0 0 10px;
+   /*display: block;*/
+   /*clear: both;*/
+   border: 1px dashed #000;
+
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item .cd_kanban_board_block_item_priority {
+   /*margin: 5px;*/
+   padding: 5px;
+   display: block;
+   clear: both;
+   font-size: 12px;
+   position: relative;
+   z-index: 10;
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .cd_kanban_board_block_item .cd_kanban_board_block_item_footer {
+   margin: 1px;
+   /*padding: 10px;*/
+   padding: 0 0 5px 10px;
+   display: block;
+   clear: both;
+   font-size: 11px;
+   /*border-top: 1px solid #c0c2cd;*/
+   position: relative;
+   z-index: 10;
+}
+
+/****CUSTOM*****/
+
+
+.client {
+   color: #8c8c8c;
+   font-size: 11px;
+   margin-bottom: 5px;
+   padding: 0 0 0 5px;
+   position: relative;
+   z-index: 10;
+   /*margin-left: 10px;*/
+}
+
+.kanbancomment {
+   color: #8c8c8c;
+   font-size: 11px;
+   margin-bottom: 5px;
+   padding: 0 0 0 5px;
+   position: relative;
+   z-index: 10;
+   margin-left: 5px;
+}
+
+.kanban_user_picture_border_verysmall {
+   width: 36px;
+   height: 36px;
+   margin-right: 5px;
+   /*background: #F6F6F6 !important;*/
+   float: left;
+   position: relative;
+   z-index: 10;
+   display: flex;
+}
+
+.kanban_user_picture_verysmall {
+   margin: 0 auto;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%; /* the magic */
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   vertical-align: top;
+}
+
+.kanban_user_verysmall {
+   margin-top: 2px;
+   z-index: 10;
+   display: flex;
+   color: #CCC;
+   font-size: 9px;
+   width: 30%;
+}
+
+.fa-white {
+   color: white;
+}
+
+#page a.fa-white, #page a.fa-white:link, a .fa-white {
+   color: white;
+}
+
+.kanban_slider {
+   position: relative;
+   text-align: left;
+   font-size: 1em;
+   width: 80%;
+   margin: 0 0 5px 0;
+   /*border: 1px solid #cccccc;*/
+   /*background: #fff;*/
+   /*color: #222;*/
+   background: #ccc;
+   background: -webkit-linear-gradient(top, #bbb, #ddd);
+   background: -moz-linear-gradient(top, #bbb, #ddd);
+   background: linear-gradient(top, #bbb, #ddd);
+
+   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+
+   border: 1px solid #aaa;
+   /*height: 4px;*/
+}
+
+.kanban_slider .ui-slider-handle {
+   top: -.3em;
+   margin-left: -.6em;
+   /*border: 1px solid #FFF;*/
+   /*background: #cd7e31;*/
+   /*font-weight: normal;*/
+   /*color: #212121;*/
+
+   background: #8DCA09;
+   background: -webkit-linear-gradient(top, #8DCA09, #72A307);
+   background: -moz-linear-gradient(top, #8DCA09, #72A307);
+   background: linear-gradient(top, #8DCA09, #72A307);
+
+   -webkit-box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.5), 0 2px 8px rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.5), 0 2px 8px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.5), 0 2px 8px rgba(0, 0, 0, 0.2);
+
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+
+   border: 1px solid #496805;
+   width: 16px;
+   height: 16px;
+
+}
+
+.cd_kanban_board > .cd_kanban_board_blocks .cd_kanban_board_block .ui-slider-handle a {
+   color: #000;
+   position: relative;
+   z-index: 10;
+   vertical-align: center;
+   display: block;
+}
+.kanban_slider .ui-slider-handle:hover {
+   background: -webkit-linear-gradient(top, #8DCA09, #8DCA09);
+}
+
+.kanban_slider .ui-slider-range-min {
+   background-color: #8DCA09;
+   background: -webkit-linear-gradient(top, #8DCA09, #72A307);
+   background: -moz-linear-gradient(top, #8DCA09, #72A307);
+   background: linear-gradient(top, #8DCA09, #72A307);
+   border-color: #496805;
+}
+
+.hideopt {
+   margin-top: 15px;
+   border-top: 1px solid #c0c2cd;
+   padding: 0 0 0 5px;
+   position: relative;
+   z-index: 10;
+   display: flex;
+   justify-content: center;
+}
+
+.inputpercent {
+   border: 0 !important;
+   color: #CCC !important;
+   font-weight: bold !important;
+   background: #F6F6F6 !important;
+}
+
+.endfooter {
+   color: #8c8c8c;
+   font-size: 9px;
+   font-style: italic;
+   position: relative;
+   z-index: 10;
+}
+
+.menu {
+   position: relative;
+   z-index: 10;
+   margin: 0 20px 0 0;
+   display: inline-block;
+}
+
+.categories {
+   margin-top: 5px;
+}
+
+.categories li {
+   background-color: #FFF;
+   z-index: 20;
+}
+
+.categories li a {
+   display: inline-block;
+   padding: 10px 15px;
+
+}
+
+.filter_right {
+   text-align: left;
+}
+
+.filter {
+   display: inline-block;
+   border-radius: 4px;
+   background-color: #e8e8e8;
+   border: none;
+   color: #555;;
+   text-align: center;
+   font-size: 9px;
+   padding: 7px;
+   /*width: 230px;*/
+   transition: all 0.5s;
+   cursor: pointer;
+   margin-bottom: 5px;
+   margin-right: 5px;
+}
+
+.filter span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+   color: #555;
+}
+
+.filter span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+   color: #000;
+}
+
+.filter:hover span {
+   padding-right: 25px;
+   color: #000;
+}
+
+.filter:hover span:after {
+   opacity: 1;
+   right: 0;
+   color: #000;
+}

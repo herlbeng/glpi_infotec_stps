@@ -1,0 +1,15 @@
+Versão 0.9.6:
+
+- GLPI 9.2.x a 9.4
+
+- Seleção de entidades no relatório de categorias;
+- Correção de bugs diversos;
+
+
+Version 0.9.6:
+
+- GLPI 9.2.x to 9.4;
+
+- Entity selection in Categories Report;
+- Fix minor bugs;
+

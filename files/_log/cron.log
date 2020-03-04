@@ -1,0 +1,1684 @@
+2020-02-19 20:31:49 [@glpi]
+Internal #1: Launch createinquest
+2020-02-19 20:32:01 [@glpi]
+Internal #1: Launch watcher
+2020-02-19 20:32:09 [@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-19 20:32:12 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-19 20:32:55 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-19 20:35:35 [@glpi]
+Internal #1: Launch queuednotificationclean
+2020-02-19 20:43:31 [2@glpi]
+Internal #1: Launch temp
+2020-02-19 20:43:35 [@glpi]
+Internal #1: Launch mailgateerror
+2020-02-19 20:43:47 [@glpi]
+Internal #1: Launch contract
+2020-02-19 20:44:05 [@glpi]
+Internal #1: Launch infocom
+2020-02-19 20:45:05 [@glpi]
+Internal #1: Launch mailgate
+2020-02-19 20:50:59 [@glpi]
+Internal #1: Launch session
+2020-02-19 20:53:59 [@glpi]
+Internal #1: Launch graph
+2020-02-19 22:34:03 [@glpi]
+Internal #1: Launch reservation
+2020-02-19 22:34:19 [@glpi]
+Internal #1: Launch closeticket
+2020-02-19 22:34:40 [@glpi]
+Internal #1: Launch alertnotclosed
+2020-02-19 22:34:54 [@glpi]
+Internal #1: Launch slaticket
+2020-02-19 22:49:12 [@glpi]
+Internal #1: Launch olaticket
+2020-02-19 23:04:36 [2@glpi]
+Internal #1: Launch queuednotification
+2020-02-19 23:09:58 [2@glpi]
+Internal #1: Launch planningrecall
+2020-02-19 23:15:31 [2@glpi]
+Internal #1: Launch mailgate
+2020-02-19 23:22:28 [4@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-19 23:22:41 [@glpi]
+Internal #1: Launch temp
+2020-02-19 23:27:55 [2@glpi]
+Internal #1: Launch graph
+2020-02-19 23:39:57 [2@glpi]
+Internal #1: Launch slaticket
+2020-02-19 23:45:20 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 00:15:24 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 00:40:02 [2@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 00:41:38 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 00:50:06 [2@glpi]
+Internal #1: Launch reservation
+2020-02-20 00:51:35 [2@glpi]
+Internal #1: Launch slaticket
+2020-02-20 00:56:14 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 16:53:45 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 16:53:55 [@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-20 16:54:44 [@glpi]
+Internal #1: Launch temp
+2020-02-20 17:03:24 [2@glpi]
+Internal #1: Launch graph
+2020-02-20 17:06:16 [2@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 17:09:54 [2@glpi]
+Internal #1: Launch mailgate
+2020-02-20 17:13:08 [2@glpi]
+Internal #1: Launch slaticket
+2020-02-20 17:20:09 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 17:26:11 [2@glpi]
+Internal #1: Launch reservation
+2020-02-20 17:29:46 [@glpi]
+Internal #1: Launch closeticket
+2020-02-20 17:30:41 [@glpi]
+Internal #1: Launch alertnotclosed
+2020-02-20 17:32:47 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 17:33:16 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 17:34:40 [@glpi]
+Internal #1: Launch slaticket
+2020-02-20 17:35:39 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 17:41:25 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 17:45:03 [2@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 17:46:35 [2@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 17:51:42 [2@glpi]
+Internal #1: Launch slaticket
+2020-02-20 17:56:00 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 17:57:48 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 18:03:51 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 18:10:52 [2@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 18:16:38 [2@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-20 18:26:27 [2@glpi]
+Interno #1: Lanzar temp
+2020-02-20 18:54:04 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 18:59:06 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 19:15:57 [@glpi]
+Internal #1: Launch graph
+2020-02-20 19:27:08 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 19:27:22 [@glpi]
+Internal #1: Launch olaticket
+2020-02-20 19:29:30 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 19:30:44 [2@glpi]
+Interno #1: Lanzar reservation
+2020-02-20 19:38:58 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 19:42:19 [2@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 19:44:18 [2@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-20 19:49:25 [2@glpi]
+Interno #1: Lanzar temp
+2020-02-20 19:54:26 [2@glpi]
+Interno #1: Lanzar olaticket
+2020-02-20 19:59:30 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 20:04:33 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-02-20 20:09:50 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 20:15:08 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 20:19:05 [2@glpi]
+Internal #1: Launch olaticket
+2020-02-20 20:20:14 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 20:24:30 [2@glpi]
+Internal #1: Launch mailgate
+2020-02-20 20:25:09 [@glpi]
+Internal #1: Launch slaticket
+2020-02-20 20:25:48 [@glpi]
+Internal #1: Launch graph
+2020-02-20 20:26:26 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 20:27:20 [@glpi]
+Internal #1: Launch olaticket
+2020-02-20 20:28:15 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 20:31:02 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 20:31:12 [@glpi]
+Internal #1: Launch reservation
+2020-02-20 20:33:00 [@glpi]
+Internal #1: Launch slaticket
+2020-02-20 20:33:14 [2@glpi]
+Interno #1: Lanzar createinquest
+2020-02-20 20:33:33 [2@glpi]
+Interno #1: Lanzar watcher
+2020-02-20 20:42:06 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 20:42:12 [2@glpi]
+Interno #1: Lanzar olaticket
+2020-02-20 20:47:31 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 20:49:09 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-02-20 20:52:35 [2@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-02-20 20:57:42 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 21:03:19 [2@glpi]
+Interno #1: Lanzar contract
+2020-02-20 21:16:00 [5@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 21:21:16 [5@glpi]
+Internal #1: Launch mailgateerror
+2020-02-20 21:23:44 [@glpi]
+Internal #1: Launch infocom
+2020-02-20 21:58:37 [2@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-20 21:59:19 [@glpi]
+Internal #1: Launch olaticket
+2020-02-20 22:01:40 [@glpi]
+Internal #1: Launch temp
+2020-02-20 22:03:02 [@glpi]
+Internal #1: Launch session
+2020-02-20 22:08:24 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 22:09:28 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-02-20 22:15:14 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 22:24:45 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 22:25:18 [2@glpi]
+Interno #1: Lanzar graph
+2020-02-20 22:30:20 [2@glpi]
+Interno #1: Lanzar reservation
+2020-02-20 22:30:21 [2@glpi]
+Interno #1: Lanzar olaticket
+2020-02-20 22:35:32 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 22:35:32 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-02-20 22:40:55 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 22:47:15 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 22:48:12 [@glpi]
+Internal #1: Launch olaticket
+2020-02-20 22:49:16 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-20 22:49:18 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 22:49:25 [@glpi]
+Internal #1: Launch slaticket
+2020-02-20 22:49:33 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-20 22:52:21 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 22:57:25 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 23:02:33 [2@glpi]
+Interno #1: Lanzar olaticket
+2020-02-20 23:08:11 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 23:11:53 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 23:14:10 [2@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-20 23:19:21 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 23:23:42 [@glpi]
+Internal #1: Launch mailgate
+2020-02-20 23:24:10 [@glpi]
+Internal #1: Launch temp
+2020-02-20 23:28:12 [@glpi]
+Internal #1: Launch olaticket
+2020-02-20 23:30:52 [@glpi]
+Internal #1: Launch slaticket
+2020-02-20 23:33:11 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 23:38:17 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-20 23:38:58 [12@glpi]
+Internal #1: Launch graph
+2020-02-20 23:43:21 [2@glpi]
+Interno #1: Lanzar reservation
+2020-02-20 23:44:13 [12@glpi]
+Internal #1: Launch mailgate
+2020-02-20 23:51:39 [12@glpi]
+Internal #1: Launch olaticket
+2020-02-20 23:51:51 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-02-20 23:58:24 [2@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-20 23:58:37 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 00:03:54 [12@glpi]
+Internal #1: Launch mailgate
+2020-02-21 00:08:57 [12@glpi]
+Internal #1: Launch slaticket
+2020-02-21 00:13:09 [@glpi]
+Internal #1: Launch olaticket
+2020-02-21 00:13:15 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 00:13:32 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 00:14:56 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-02-21 00:18:15 [@glpi]
+Internal #1: Launch slaticket
+2020-02-21 00:18:39 [@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-21 00:20:35 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-21 00:23:09 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 00:23:49 [@glpi]
+Internal #1: Launch olaticket
+2020-02-21 00:28:28 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 00:29:06 [12@glpi]
+Internal #1: Launch slaticket
+2020-02-21 00:29:09 [@glpi]
+Internal #1: Launch mailgate
+2020-02-21 00:31:30 [21@glpi]
+Internal #1: Launch temp
+2020-02-21 00:32:13 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 00:36:54 [12@glpi]
+Internal #1: Launch olaticket
+2020-02-21 00:37:28 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-21 00:43:48 [@glpi]
+Internal #1: Launch slaticket
+2020-02-21 00:44:16 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 01:57:14 [@glpi]
+Internal #1: Launch graph
+2020-02-21 02:01:16 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 16:36:28 [@glpi]
+Internal #1: Launch mailgate
+2020-02-21 16:40:36 [@glpi]
+Internal #1: Launch olaticket
+2020-02-21 17:03:36 [16@glpi]
+Internal #1: Launch reservation
+2020-02-21 18:03:10 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-21 18:07:52 [12@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 18:10:12 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-21 18:14:18 [12@glpi]
+Internal #1: Launch temp
+2020-02-21 18:16:07 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-21 18:16:07 [16@glpi]
+Error en el envío del email<br/>Could not instantiate mail function.
+2020-02-21 18:21:23 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-21 18:32:35 [16@glpi]
+Interno #1: Lanzar closeticket
+2020-02-21 18:37:44 [16@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-21 18:43:35 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-21 18:54:47 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-21 18:56:00 [12@glpi]
+Internal #1: Launch reservation
+2020-02-21 19:05:01 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-21 19:07:39 [12@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 19:11:22 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-21 19:11:22 [16@glpi]
+Error en el envío del email<br/>Could not instantiate mail function.
+2020-02-21 19:11:22 [16@glpi]
+Error en el envío del email<br/>Could not instantiate mail function.
+2020-02-21 19:11:22 [16@glpi]
+Error en el envío del email<br/>Could not instantiate mail function.
+2020-02-21 19:19:32 [12@glpi]
+Internal #1: Launch olaticket
+2020-02-21 19:22:35 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-21 19:25:08 [12@glpi]
+Internal #1: Launch slaticket
+2020-02-21 19:35:18 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-21 19:43:01 [12@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 19:55:13 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 19:59:45 [12@glpi]
+Internal #1: Launch temp
+2020-02-21 20:04:32 [12@glpi]
+Internal #1: Launch graph
+2020-02-21 20:07:21 [12@glpi]
+Internal #1: Launch olaticket
+2020-02-21 20:13:50 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-21 20:19:02 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-21 20:25:36 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-21 20:31:01 [@glpi]
+Internal #1: Launch reservation
+2020-02-21 20:31:46 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 20:31:46 [@glpi]
+Error in sending the email<br/>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 20:32:18 [@glpi]
+Internal #1: Launch olaticket
+2020-02-21 20:37:42 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-21 20:45:41 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-21 20:53:51 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-21 21:39:23 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 21:39:24 [12@glpi]
+Error in sending the email<br/>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 21:39:24 [12@glpi]
+Error in sending the email<br/>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2020-02-21 21:42:01 [@glpi]
+Internal #1: Launch createinquest
+2020-02-21 21:42:37 [@glpi]
+Internal #1: Launch watcher
+2020-02-21 21:43:00 [@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-21 21:43:25 [@glpi]
+Internal #1: Launch olaticket
+2020-02-21 21:43:44 [@glpi]
+Internal #1: Launch slaticket
+2020-02-21 21:43:58 [@glpi]
+Internal #1: Launch queuednotificationclean
+2020-02-21 21:44:34 [12@glpi]
+Internal #1: Launch mailgate
+2020-02-21 21:45:50 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-21 21:53:26 [12@glpi]
+Internal #1: Launch temp
+2020-02-21 22:01:06 [16@glpi]
+Interno #1: Lanzar contract
+2020-02-21 22:02:56 [12@glpi]
+Internal #1: Launch graph
+2020-02-21 22:09:44 [12@glpi]
+Internal #1: Launch mailgateerror
+2020-02-21 22:18:40 [12@glpi]
+Internal #1: Launch infocom
+2020-02-21 22:23:08 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-21 22:24:20 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-21 22:29:47 [12@glpi]
+Internal #1: Launch slaticket
+2020-02-21 22:34:54 [12@glpi]
+Internal #1: Launch olaticket
+2020-02-21 22:41:38 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-21 22:42:40 [12@glpi]
+Internal #1: Launch mailgate
+2020-02-21 22:59:48 [16@glpi]
+Interno #1: Lanzar session
+2020-02-21 23:06:27 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-21 23:13:26 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-21 23:19:08 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-21 23:37:39 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-21 23:43:01 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-22 00:03:47 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-22 00:23:40 [@glpi]
+Internal #1: Launch temp
+2020-02-24 15:30:08 [@glpi]
+Internal #1: Launch graph
+2020-02-24 15:39:17 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 16:35:05 [@glpi]
+Internal #1: Launch slaticket
+2020-02-24 16:41:01 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-24 16:51:35 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 16:56:45 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 16:57:52 [@glpi]
+Internal #1: Launch mailgate
+2020-02-24 16:58:45 [@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-24 17:00:16 [@glpi]
+Internal #1: Launch temp
+2020-02-24 17:04:10 [12@glpi]
+Internal #1: Launch closeticket
+2020-02-24 17:04:14 [16@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-24 17:09:18 [16@glpi]
+Interno #1: Lanzar createinquest
+2020-02-24 17:09:33 [12@glpi]
+Internal #1: Launch watcher
+2020-02-24 17:14:35 [16@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-02-24 18:42:24 [16@glpi]
+Interno #1: Lanzar contract
+2020-02-24 18:47:45 [16@glpi]
+Interno #1: Lanzar mailgateerror
+2020-02-24 19:00:10 [12@glpi]
+Internal #1: Launch infocom
+2020-02-24 19:05:08 [16@glpi]
+Interno #1: Lanzar session
+2020-02-24 19:05:19 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:10:50 [12@glpi]
+Internal #1: Launch graph
+2020-02-24 19:10:56 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 19:16:33 [@glpi]
+Internal #1: Launch olaticket
+2020-02-24 19:16:44 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 19:16:53 [@glpi]
+Internal #1: Launch mailgate
+2020-02-24 19:17:07 [@glpi]
+Internal #1: Launch reservation
+2020-02-24 19:18:46 [12@glpi]
+Internal #1: Launch ticketrecurrent
+2020-02-24 19:19:27 [@glpi]
+Internal #1: Launch temp
+2020-02-24 19:19:36 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:23:52 [12@glpi]
+Internal #1: Launch slaticket
+2020-02-24 19:26:43 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:27:13 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 19:27:28 [@glpi]
+Internal #1: Launch olaticket
+2020-02-24 19:28:09 [@glpi]
+Internal #1: Launch mailgate
+2020-02-24 19:29:20 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:35:06 [@glpi]
+Internal #1: Launch slaticket
+2020-02-24 19:42:52 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:43:11 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 19:43:40 [4@glpi]
+Internal #1: Launch olaticket
+2020-02-24 19:44:20 [12@glpi]
+Internal #1: Launch mailgate
+2020-02-24 19:46:48 [@glpi]
+Internal #1: Launch slaticket
+2020-02-24 19:47:04 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:47:31 [5@glpi]
+Internal #1: Nothing to launch
+2020-02-24 19:49:20 [12@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 19:51:14 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:51:25 [@glpi]
+Internal #1: Launch olaticket
+2020-02-24 19:51:32 [@glpi]
+Internal #1: Launch slaticket
+2020-02-24 19:54:45 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 19:58:53 [@glpi]
+Internal #1: Launch mailgate
+2020-02-24 19:59:48 [4@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 19:59:52 [12@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 20:05:09 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 20:09:35 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 20:22:49 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 20:23:18 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 20:27:33 [@glpi]
+Internal #1: Launch mailgate
+2020-02-24 20:28:19 [4@glpi]
+Internal #1: Launch graph
+2020-02-24 20:41:17 [@glpi]
+Internal #1: Launch slaticket
+2020-02-24 20:41:31 [@glpi]
+Internal #1: Launch olaticket
+2020-02-24 20:41:46 [@glpi]
+Internal #1: Launch reservation
+2020-02-24 20:47:16 [12@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-24 20:49:19 [4@glpi]
+Internal #1: Launch temp
+2020-02-24 20:51:48 [@glpi]
+Internal #1: Launch queuednotification
+2020-02-24 20:52:44 [@glpi]
+Internal #1: Launch planningrecall
+2020-02-24 20:55:00 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-24 21:00:59 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 21:06:58 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 21:13:51 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 21:23:36 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 21:26:09 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-24 21:30:17 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 21:33:45 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 21:34:08 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 21:34:46 [@glpi]
+Interno #1: Lanzar graph
+2020-02-24 21:34:57 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 21:35:27 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 21:35:33 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 21:42:12 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-24 21:55:27 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 22:09:42 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 22:14:12 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 22:49:49 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 23:00:24 [12@glpi]
+Interno #1: Lanzar reservation
+2020-02-24 23:05:25 [12@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-24 23:11:17 [12@glpi]
+Interno #1: Lanzar temp
+2020-02-24 23:15:32 [25@glpi]
+Interno #1: Lanzar mailgate
+2020-02-24 23:17:50 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 23:26:25 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-24 23:26:26 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 23:32:17 [12@glpi]
+Interno #1: Lanzar graph
+2020-02-24 23:48:09 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-24 23:48:27 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-24 23:50:43 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-24 23:56:54 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-24 23:59:05 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 00:06:29 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 00:12:45 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 00:13:13 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 00:15:27 [@glpi]
+Interno #1: Lanzar reservation
+2020-02-25 00:15:56 [25@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 00:16:27 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 00:16:48 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-25 00:21:20 [25@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 00:25:05 [12@glpi]
+Interno #1: Lanzar temp
+2020-02-25 00:31:48 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 00:40:02 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 00:50:24 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 00:54:58 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 15:29:00 [21@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 16:40:09 [4@glpi]
+Interno #1: Lanzar graph
+2020-02-25 16:40:19 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 16:40:33 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 16:43:20 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 16:43:59 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 16:45:01 [@glpi]
+Interno #1: Lanzar reservation
+2020-02-25 16:48:55 [12@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-25 16:55:49 [@glpi]
+Interno #1: Lanzar temp
+2020-02-25 17:05:55 [16@glpi]
+Interno #1: Lanzar closeticket
+2020-02-25 17:12:56 [16@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-25 17:18:35 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 17:24:41 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 17:25:40 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 17:26:42 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 17:31:51 [26@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 17:44:42 [12@glpi]
+Interno #1: Lanzar createinquest
+2020-02-25 17:46:27 [16@glpi]
+Interno #1: Lanzar watcher
+2020-02-25 17:53:17 [16@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-02-25 18:00:09 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 18:05:23 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 18:11:29 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 18:16:37 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 18:17:28 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 18:23:30 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-25 18:30:34 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-25 18:36:10 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-25 18:50:42 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-25 19:16:07 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 19:21:22 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 19:26:39 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 19:32:06 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 19:37:27 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 19:42:51 [16@glpi]
+Interno #1: Lanzar contract
+2020-02-25 19:46:22 [12@glpi]
+Interno #1: Lanzar mailgateerror
+2020-02-25 19:56:56 [16@glpi]
+Interno #1: Lanzar infocom
+2020-02-25 19:58:28 [26@glpi]
+Interno #1: Lanzar session
+2020-02-25 19:59:17 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 20:04:03 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-25 20:13:59 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-25 20:25:54 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 20:31:02 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 20:41:54 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-25 20:47:19 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 20:57:11 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 21:05:10 [26@glpi]
+Interno #1: Lanzar temp
+2020-02-25 21:06:20 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 21:11:03 [26@glpi]
+Interno #1: Lanzar mailgate
+2020-02-25 21:11:20 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 21:17:29 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-25 21:21:32 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-25 21:30:13 [26@glpi]
+Interno #1: Lanzar graph
+2020-02-25 21:40:28 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-25 21:53:28 [26@glpi]
+Interno #1: Lanzar reservation
+2020-02-25 21:59:21 [26@glpi]
+Interno #1: Lanzar slaticket
+2020-02-25 22:11:24 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-26 00:07:19 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-26 00:12:22 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-26 00:16:27 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-26 00:17:16 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-26 00:22:31 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-26 00:27:43 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-26 00:42:26 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-26 00:47:52 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-26 00:50:22 [@glpi]
+Interno #1: Lanzar reservation
+2020-02-26 04:48:58 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-26 16:41:32 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-26 16:49:52 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-26 20:12:49 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-26 20:18:52 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-26 20:24:00 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-26 20:36:58 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-26 20:38:36 [@glpi]
+Interno #1: Lanzar graph
+2020-02-26 21:53:46 [@glpi]
+Interno #1: Lanzar reservation
+2020-02-26 22:01:39 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-26 22:01:41 [@glpi]
+Interno #1: Lanzar closeticket
+2020-02-26 22:02:02 [@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-26 22:03:38 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-26 22:28:14 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-26 22:37:21 [@glpi]
+Interno #1: Lanzar createinquest
+2020-02-26 22:56:46 [26@glpi]
+Interno #1: Lanzar watcher
+2020-02-26 23:25:02 [26@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-02-26 23:33:57 [26@glpi]
+Interno #1: Lanzar contract
+2020-02-26 23:44:33 [@glpi]
+Interno #1: Lanzar mailgateerror
+2020-02-26 23:50:45 [16@glpi]
+Interno #1: Lanzar infocom
+2020-02-26 23:56:08 [16@glpi]
+Interno #1: Lanzar session
+2020-02-27 00:01:30 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 00:06:38 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 00:07:22 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-27 00:07:46 [@glpi]
+Interno #1: Lanzar temp
+2020-02-27 00:36:07 [26@glpi]
+Interno #1: Lanzar graph
+2020-02-27 00:36:10 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 01:00:21 [26@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 01:26:51 [26@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 01:29:50 [@glpi]
+Interno #1: Lanzar reservation
+2020-02-27 01:35:12 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 01:36:00 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 01:38:52 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 17:13:09 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 17:18:11 [12@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-27 17:19:49 [@glpi]
+Interno #1: Lanzar temp
+2020-02-27 17:26:42 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 17:36:55 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-27 17:41:58 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 17:51:16 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 17:56:29 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 18:01:41 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-27 18:11:28 [16@glpi]
+Interno #1: Lanzar closeticket
+2020-02-27 18:28:11 [12@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-27 18:34:21 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 18:37:22 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 18:37:42 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 18:39:43 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 18:45:32 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 18:51:07 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-27 18:55:36 [21@glpi]
+Interno #1: Lanzar temp
+2020-02-27 18:56:48 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-27 19:04:34 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:07:51 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:08:26 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 19:08:48 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 19:09:11 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 19:12:23 [12@glpi]
+Interno #1: Lanzar reservation
+2020-02-27 19:17:28 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:22:33 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:27:42 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 19:28:14 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 19:28:25 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:30:12 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 19:32:49 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:36:40 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:36:47 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 19:37:50 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 19:37:54 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:41:12 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:42:17 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:42:33 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 19:42:59 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 19:43:57 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 19:47:52 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:49:41 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:50:07 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 19:51:17 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 19:52:34 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:53:35 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-27 19:55:15 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 19:55:51 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 19:57:03 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 19:58:03 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 20:01:28 [@glpi]
+Interno #1: Lanzar temp
+2020-02-27 20:04:57 [@glpi]
+Interno #1: Lanzar graph
+2020-02-27 20:10:28 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 20:12:07 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 20:14:57 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 20:15:18 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 20:20:12 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 20:25:32 [12@glpi]
+Interno #1: Lanzar reservation
+2020-02-27 20:30:38 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 20:35:43 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 20:40:48 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 20:45:55 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 20:51:00 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 22:49:50 [28@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 22:55:34 [28@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-27 23:01:18 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-27 23:01:54 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-27 23:04:42 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-27 23:06:33 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-27 23:06:50 [@glpi]
+Interno #1: Lanzar temp
+2020-02-27 23:37:06 [28@glpi]
+Interno #1: Lanzar graph
+2020-02-27 23:39:08 [12@glpi]
+Interno #1: Lanzar reservation
+2020-02-27 23:44:12 [12@glpi]
+Interno #1: Lanzar createinquest
+2020-02-27 23:49:22 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-27 23:54:26 [12@glpi]
+Interno #1: Lanzar watcher
+2020-02-27 23:59:33 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 00:04:45 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 00:09:49 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 00:14:57 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 00:20:26 [12@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-02-28 00:46:17 [28@glpi]
+Interno #1: Lanzar contract
+2020-02-28 01:07:10 [28@glpi]
+Interno #1: Lanzar mailgateerror
+2020-02-28 01:07:13 [@glpi]
+Interno #1: Lanzar infocom
+2020-02-28 01:12:32 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 01:19:45 [16@glpi]
+Interno #1: Lanzar session
+2020-02-28 01:25:03 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-28 01:25:53 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 01:34:14 [12@glpi]
+Interno #1: Lanzar temp
+2020-02-28 16:05:27 [21@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 16:52:05 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 16:58:50 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 17:04:35 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-28 17:24:23 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-28 17:29:38 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 17:35:02 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 17:39:01 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-28 18:03:23 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-28 18:28:23 [16@glpi]
+Interno #1: Lanzar closeticket
+2020-02-28 18:44:49 [@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-02-28 18:56:52 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 19:07:35 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 19:23:55 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 19:29:30 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 19:34:37 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 19:39:42 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-28 19:44:50 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-28 19:50:12 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-28 19:55:24 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 20:00:46 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-28 20:05:55 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 20:11:09 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 20:16:22 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 20:21:37 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 20:26:52 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 20:32:15 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 20:37:31 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 20:42:41 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 20:47:53 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 20:53:04 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 20:58:15 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 21:03:25 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 21:08:35 [16@glpi]
+Interno #1: Lanzar graph
+2020-02-28 21:13:48 [16@glpi]
+Interno #1: Lanzar reservation
+2020-02-28 21:19:02 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-28 21:24:14 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 21:29:29 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 21:34:43 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 21:39:59 [16@glpi]
+Interno #1: Lanzar temp
+2020-02-28 21:45:10 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 21:50:27 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 21:55:38 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 21:57:43 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 21:58:17 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 21:59:39 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 22:00:52 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 22:03:02 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 22:20:45 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 22:27:44 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 22:32:15 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 22:36:03 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 22:37:40 [@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 22:39:29 [6@glpi]
+Interno #1: Lanzar graph
+2020-02-28 22:45:13 [6@glpi]
+Interno #1: Lanzar reservation
+2020-02-28 22:51:25 [6@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-02-28 22:56:41 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 23:05:03 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 23:05:49 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 23:07:47 [6@glpi]
+Interno #1: Lanzar temp
+2020-02-28 23:10:56 [12@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 23:16:06 [12@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 23:16:22 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 23:21:09 [12@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 23:32:24 [@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 23:33:18 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 23:39:51 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-28 23:40:27 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 23:45:40 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-02-28 23:46:46 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-02-28 23:51:19 [@glpi]
+Interno #1: Lanzar olaticket
+2020-02-28 23:53:39 [@glpi]
+Interno #1: Lanzar graph
+2020-02-28 23:55:59 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-02-28 23:59:40 [16@glpi]
+Interno #1: Lanzar createinquest
+2020-02-29 00:01:16 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-02-29 00:03:30 [12@glpi]
+Interno #1: Lanzar reservation
+2020-02-29 23:29:39 [12@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 16:04:04 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-02 16:47:12 [@glpi]
+Interno #1: Lanzar watcher
+2020-03-02 16:52:48 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 16:57:59 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 17:04:27 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 17:05:24 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 17:05:48 [@glpi]
+Interno #1: Lanzar temp
+2020-03-02 17:12:52 [16@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-03-02 17:23:37 [16@glpi]
+Interno #1: Lanzar contract
+2020-03-02 17:28:49 [16@glpi]
+Interno #1: Lanzar graph
+2020-03-02 17:34:20 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-02 17:40:02 [16@glpi]
+Interno #1: Lanzar infocom
+2020-03-02 17:47:22 [16@glpi]
+Interno #1: Lanzar mailgateerror
+2020-03-02 17:53:08 [16@glpi]
+Interno #1: Lanzar session
+2020-03-02 17:58:18 [16@glpi]
+Interno #1: Lanzar closeticket
+2020-03-02 18:03:45 [16@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-03-02 18:11:08 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 18:50:20 [16@glpi]
+Interno #1: Lanzar createinquest
+2020-03-02 19:03:48 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 19:06:00 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 19:06:51 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-02 19:07:02 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 19:11:58 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 19:13:10 [6@glpi]
+Interno #1: Lanzar temp
+2020-03-02 19:16:26 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 19:18:17 [6@glpi]
+Interno #1: Lanzar graph
+2020-03-02 19:19:48 [@glpi]
+Interno #1: Lanzar reservation
+2020-03-02 19:23:22 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 19:28:28 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 19:33:33 [6@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 19:38:39 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 19:43:51 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 19:48:56 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 19:54:01 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 19:59:06 [6@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 20:04:11 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 20:09:16 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 20:14:33 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 20:19:38 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 20:26:48 [6@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-02 20:31:50 [6@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 20:36:55 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 20:42:01 [6@glpi]
+Interno #1: Lanzar temp
+2020-03-02 20:43:54 [34@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 20:44:08 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 20:47:06 [6@glpi]
+Interno #1: Lanzar graph
+2020-03-02 21:36:03 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-02 21:47:40 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 21:52:44 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 21:53:00 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 21:53:30 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 21:58:50 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 22:03:55 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-02 22:05:47 [@glpi]
+Interno #1: Lanzar temp
+2020-03-02 22:12:07 [@glpi]
+Interno #1: Lanzar graph
+2020-03-02 22:21:17 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 22:21:39 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:29:14 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 22:30:29 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 22:30:56 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 22:38:56 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:39:18 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 22:42:33 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 22:45:17 [2@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 22:48:10 [12@glpi]
+Interno #1: Lanzar reservation
+2020-03-02 22:48:41 [2@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:53:19 [2@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 22:54:08 [2@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 22:54:43 [12@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 22:54:55 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:55:02 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 22:55:12 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:55:41 [@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 22:56:12 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:56:55 [@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 22:57:06 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 22:57:12 [@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 22:57:41 [@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 22:57:53 [4@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 23:00:50 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 23:01:29 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 23:01:59 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 23:02:08 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 23:02:28 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 23:02:41 [@glpi]
+Interno #1: Nada que lanzar
+2020-03-02 23:03:00 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 23:03:38 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-02 23:10:07 [26@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 23:15:26 [26@glpi]
+Interno #1: Lanzar temp
+2020-03-02 23:21:27 [26@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-02 23:26:45 [26@glpi]
+Interno #1: Lanzar olaticket
+2020-03-02 23:31:56 [26@glpi]
+Interno #1: Lanzar slaticket
+2020-03-02 23:37:25 [26@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-02 23:42:37 [26@glpi]
+Interno #1: Lanzar graph
+2020-03-02 23:47:48 [26@glpi]
+Interno #1: Lanzar mailgate
+2020-03-02 23:52:59 [26@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 00:00:24 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 00:01:08 [26@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 00:12:49 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 00:39:46 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 00:45:29 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 00:49:53 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 00:51:43 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 00:57:02 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 00:57:37 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 01:01:27 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 01:12:05 [@glpi]
+Interno #1: Lanzar temp
+2020-03-03 15:03:05 [@glpi]
+Interno #1: Lanzar graph
+2020-03-03 15:03:59 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 15:10:10 [40@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 15:15:18 [40@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 15:20:26 [40@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 15:25:34 [40@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 15:26:08 [6@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 15:28:15 [41@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 15:33:22 [41@glpi]
+Interno #1: Lanzar temp
+2020-03-03 15:37:12 [@glpi]
+Interno #1: Lanzar closeticket
+2020-03-03 15:38:27 [41@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-03-03 15:43:32 [41@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 15:49:10 [41@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 15:55:58 [40@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 16:01:08 [40@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 16:25:01 [41@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 16:29:03 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 16:29:27 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 16:30:06 [41@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 16:33:08 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 16:33:34 [@glpi]
+Interno #1: Lanzar graph
+2020-03-03 16:38:47 [@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 16:45:04 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 16:46:38 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 17:03:10 [16@glpi]
+Interno #1: Lanzar temp
+2020-03-03 17:04:00 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 17:04:20 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 17:04:43 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 17:04:49 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 17:05:02 [@glpi]
+Interno #1: Lanzar watcher
+2020-03-03 17:09:54 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 17:13:52 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 17:18:20 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 17:19:24 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 17:24:29 [6@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-03-03 17:28:37 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 17:29:33 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 17:34:37 [6@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 17:39:43 [6@glpi]
+Interno #1: Lanzar contract
+2020-03-03 17:44:48 [6@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 17:49:53 [6@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 17:55:34 [6@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 18:00:39 [6@glpi]
+Interno #1: Lanzar graph
+2020-03-03 18:05:12 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 18:23:46 [@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 18:25:46 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 18:30:27 [6@glpi]
+Interno #1: Lanzar infocom
+2020-03-03 18:38:12 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 19:46:38 [16@glpi]
+Interno #1: Lanzar mailgateerror
+2020-03-03 19:54:12 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 19:59:23 [16@glpi]
+Interno #1: Lanzar session
+2020-03-03 20:04:35 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 20:09:43 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 20:15:21 [16@glpi]
+Interno #1: Lanzar temp
+2020-03-03 20:20:29 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 20:25:38 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 20:30:46 [16@glpi]
+Interno #1: Lanzar createinquest
+2020-03-03 20:35:55 [16@glpi]
+Interno #1: Lanzar graph
+2020-03-03 20:41:03 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 20:46:11 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 20:51:20 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 20:56:27 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 21:01:35 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 21:06:43 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 21:11:51 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 21:16:59 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 21:22:08 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 21:27:16 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 21:32:24 [16@glpi]
+Interno #1: Lanzar temp
+2020-03-03 21:37:33 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 21:42:41 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 21:47:49 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 21:52:58 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 21:58:07 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 22:03:18 [16@glpi]
+Interno #1: Lanzar graph
+2020-03-03 22:08:29 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-03 22:13:40 [16@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-03 23:15:26 [40@glpi]
+Interno #1: Lanzar mailgate
+2020-03-03 23:20:43 [40@glpi]
+Interno #1: Lanzar olaticket
+2020-03-03 23:26:09 [40@glpi]
+Interno #1: Lanzar slaticket
+2020-03-03 23:31:20 [40@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-03 23:36:41 [40@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-03 23:41:51 [40@glpi]
+Interno #1: Lanzar temp
+2020-03-03 23:47:03 [40@glpi]
+Interno #1: Lanzar graph
+2020-03-04 00:16:38 [@glpi]
+Interno #1: Lanzar reservation
+2020-03-04 00:22:39 [21@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-04 00:24:57 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 00:29:38 [21@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 00:35:40 [21@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 00:42:34 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 00:48:33 [21@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 00:49:16 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 00:54:50 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 01:05:13 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 01:12:09 [16@glpi]
+Interno #1: Lanzar temp
+2020-03-04 01:17:12 [16@glpi]
+Interno #1: Lanzar graph
+2020-03-04 01:22:28 [16@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 01:27:42 [16@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 01:33:15 [16@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 01:38:16 [16@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 01:43:21 [16@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 02:45:50 [16@glpi]
+Interno #1: Lanzar reservation
+2020-03-04 02:47:09 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-04 03:14:05 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 04:09:19 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 16:28:17 [21@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 16:57:11 [@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 16:57:13 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 17:00:59 [@glpi]
+Interno #1: Lanzar temp
+2020-03-04 17:01:43 [21@glpi]
+Interno #1: Lanzar graph
+2020-03-04 17:42:03 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 17:44:17 [21@glpi]
+Interno #1: Lanzar closeticket
+2020-03-04 17:46:49 [40@glpi]
+Interno #1: Lanzar alertnotclosed
+2020-03-04 17:53:26 [@glpi]
+Interno #1: Lanzar reservation
+2020-03-04 17:53:59 [@glpi]
+Interno #1: Lanzar ticketrecurrent
+2020-03-04 17:56:11 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 17:56:58 [40@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 18:02:01 [36@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 18:08:15 [36@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 18:14:07 [36@glpi]
+Interno #1: Lanzar watcher
+2020-03-04 18:15:53 [@glpi]
+Interno #1: Lanzar queuednotificationclean
+2020-03-04 18:16:34 [@glpi]
+Interno #1: Lanzar contract
+2020-03-04 18:16:49 [@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 18:18:49 [40@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 18:19:12 [36@glpi]
+Interno #1: Lanzar temp
+2020-03-04 18:23:09 [16@glpi]
+Interno #1: Lanzar graph
+2020-03-04 18:24:02 [@glpi]
+Interno #1: Lanzar mailgate
+2020-03-04 18:24:17 [36@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 18:24:30 [40@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 18:29:22 [36@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 18:29:40 [40@glpi]
+Interno #1: Lanzar planningrecall
+2020-03-04 18:31:54 [@glpi]
+Interno #1: Lanzar slaticket
+2020-03-04 18:34:27 [36@glpi]
+Interno #1: Lanzar olaticket
+2020-03-04 18:34:49 [40@glpi]
+Interno #1: Lanzar infocom
+2020-03-04 18:34:58 [@glpi]
+Interno #1: Lanzar queuednotification
+2020-03-04 18:36:14 [@glpi]
+Interno #1: Lanzar mailgate

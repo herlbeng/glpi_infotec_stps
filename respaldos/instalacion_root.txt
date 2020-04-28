@@ -1,0 +1,778 @@
+id
+rpm -qa|grep ssh
+grep MemTotal /proc/meminfo
+grep SwapTotal /proc/meminfo
+free
+addgroup oinstall
+groupadd oinstall
+grep groupadd /etc/group
+grep oinstall /etc/group
+grep dba /etc/group
+groupadd dba
+grep dba /etc/group
+df -k
+cd /home
+ls
+useradd oracle -d /home/oracle -g oinstall -G dba
+grep oracle /etc/password
+grep oracle /etc/users
+cd /
+ls
+cd etc
+ls
+grep oracle /etc/users
+ls us*
+cat /etc/passwd
+cat /etc/groups
+cat /etc/group
+cd
+cd /home
+ls
+ls -l
+cd ..
+ls
+cd /
+ls
+mkdir oracle
+chown oracle:oinstall oracle
+ls -l
+ls -lrt
+ln -s oracle /oracle
+ls -l
+df -k
+ln -s /oracle /oracle
+ls
+cd /oracle
+ls
+cd oracle
+ls
+ls -l
+pwd
+rm oracle
+ls -l
+pwd
+cd /
+ls
+df -k
+ls -l
+chown oracle_oinstall u01
+chown oracle:oinstall u01
+ls -l
+df -k
+ln -s /oracle /oracle
+df -k
+ls -l
+cd oracle
+ls
+cd
+cd /oracle
+ls
+ls -l
+cd /tmp
+ls
+cp *.zip /oracle
+cd /oracle
+ls
+passwd oracle
+ls
+grep oracle /etc/passw
+grep oracle /etc/passwd
+cd /bin
+ls
+chsh -s /bin/sh oracle
+grep oracle /etc/passwd
+cd /oracle
+ls
+pwd
+su - oracle
+cd /oracle
+ls
+ls -l
+chown oracle:oinstall linux.x64_11gR2_database_1of2.zip
+chown oracle:oinstall linux.x64_11gR2_database_2of2.zip
+ls -l
+su - oracle
+vps
+pvs
+vgs
+pvs
+exit
+cd /oracle
+ls
+cd database
+ls
+./runInstaller
+id
+more /etc/passwd
+clear
+ls
+./runInstaller
+exit
+clear
+id
+cd /oracle/database
+ls
+echo
+./runInstaller
+quit
+exit
+pwd
+cd /oracle/database
+ls
+./runInstaller
+exit
+cd /oracle/database
+ls
+./runInstaller
+exit
+who am i
+df -k
+cd /
+ls
+cd oracle
+ls
+pwd
+lsu
+ls
+unzip linux.x64_11gR2_database_1of2.zip
+ls
+unzip linux.x64_11gR2_database_2of2.zip
+ls
+cd database
+ls
+dbca -silent -configureDatabase -sourceDB desainfo -disableSecurityConfiguration NONE -enableSecurityConfiguration true
+exit
+su - oracle
+exit
+su - oracle
+exit
+ls
+su - oracle
+exit
+su - oracle
+id
+su - oracle
+more /proc/sys/kernel
+cd /proc/sys/kernel
+ls
+more sem
+more shmall
+more shmmax
+more shmmni
+more file-max
+more ip_local_port_range
+pwd
+cd ../sys
+cd ../fs
+more file-max
+cd../net/ipv4
+cd ..
+ls
+cd net/ipv4
+ls
+more ip_local_port_range
+cd ../core
+more rmem_default
+more rmem_max
+more wmem_default
+more wmem_max
+cd ..
+ls
+cd ..
+ls
+cd fs
+more aio-max-nr
+/sbin/sysctl -a |grep sem
+/sbin/sysctl -a
+/sbin/sysctl -a |grep fs.aoi-max-nr
+more /proc/sys/fs/aio-max-nr
+unlimit -Sn
+ulimit -Sn
+ulimit -Hn
+ulimit -Su
+ulimit -Hu
+cd /
+ls
+ls -l
+cd /u01
+ls
+mkdir app
+ls -l
+chown oracle:oinstall app
+ls -l
+umask
+su - oracle
+cd /
+mkdir u02
+chown oracle:oinstall u02
+ls -l
+pwd
+cd u01
+ls
+cd app
+ls
+cd ..
+ls
+cd app
+ls
+cd ..
+cd Ora11g
+ls
+cd /
+mkdir u02
+ld -l
+ls -l
+cd /u02
+ls
+mkdir oradata
+chown oracle:oinstall oradata
+ls -l
+HOSTNAME
+hostname
+su - oracle
+ps -fea|grep oracle
+who am i
+su - oracle
+exit
+su - oracle
+cd /
+mkdir u03
+chown oracle:install u03
+ls
+ls -l
+chown oracle:oinstall u03
+ls -l
+su - oracle
+exit
+su - oracle
+exit
+su - oracle
+exit
+su - oracle
+exit
+ls
+cd /etc/httpd/
+ls
+cd conf.d/
+ls
+vim welcome.conf 
+systemctl restart httpd
+vim welcome.conf 
+systemctl restart httpd
+vim welcome.conf 
+systemctl restart httpd
+vim welcome.conf 
+ls
+vim ssl.conf 
+systemctl restart httpd
+vim welcome.conf 
+vim ssl.conf 
+systemctl restart httpd
+exit
+cd /etc/ssmtp/
+ls -la
+nano ssmtp.conf 
+echo "Prueba de correo GLPI Productivo con cuenta GMAIL (aún)" | ssmtp ma.stps.infotec@gmail.com
+ls -la
+echo "Prueba de correo GLPI Productivo con cuenta GMAIL (aún)" | ssmtp hermann.benda@infotec.mx
+echo "Prueba de correo GLPI Productivo con cuenta GMAIL (aún)" | ssmtp hermann.benda@infotec.mx
+echo "Prueba de correo GLPI Productivo con cuenta GMAIL (aún)" | ssmtp hermann.benda@infotec.mx
+ls -la
+cd /var/www
+cd html/
+cd glpi
+ls -la
+sudo git pull origin master
+ls -la
+sudo mv glpi_0403_des-prd.sql /home/glpi/
+sudo mysql -u root -p glpi < /home/glpi/glpi_0403_des-prd.sql 
+sudo mysql -u root -p
+cd /var/www/html/glpi/plugins/
+ls -la
+cd dashboard/
+ls -la
+sudo nano setup.php 
+cd ..
+cd ..
+pwd
+grep -inr '34.'
+grep -inr '34.74'
+grep -inr "34.74.79.236"
+grep -inr "34.74"
+grep -inr "34.74.79"
+ls -la
+cd files
+ls -la
+cd -tmp
+cd _tmp/
+ls -la
+cd ..
+cd _cache/
+ls -la
+cat remove.txt 
+cd ..
+ls -la
+mysql -u root -p
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root -p mysql
+mysql -u root -p
+mysql -u root -p
+date
+date
+date
+date
+date
+date
+ping glpi.infotec.mx
+date
+date
+exit
+cd /etc/ssmtp/
+ls
+cd /etc/httpd/
+ls
+cd conf.d/
+ls
+vim ssl.conf 
+ls -la
+sudo nano /etc/ssmtp/ssmtp.conf 
+exit
+mysqldump -u root -p glpi > glpi_PRD_0603.sql
+ls -la
+sudo cp glpi_PRD_0603.sql /home/glpi/
+sudo mv glpi_PRD_0603.sql /var/www/html/glpi/
+cd /var/www/html/glpi/
+ls -la
+sudo git add glpi_PRD_0603.sql
+exit
+su - oracle
+exit
+su - oracle
+su - oracle
+cd /u01
+ls
+cd Ora11g
+echo $ORACLE_HOME $ORACLE_BASE $ORACLE_SID $DISPLAY
+ORACLE_HOME=/u01/app/oracle/product/11.2.0/dbhome_1
+ORACLE_BASE=/u01/app/oracle
+ORACLE_SID=infotec_desa
+DISPLAY=:0.0
+ls
+cd database
+echo $ORACLE_HOME $ORACLE_BASE $ORACLE_SID $DISPLAY
+ls
+./runInstaller
+sudo su -
+su - oracle
+exit
+su - oracle
+exit
+su - oracle
+exit
+su - oracle
+exit
+su - oracle
+cd /usr/bin
+ls
+ls run*
+cd /u01/
+ls
+cd Ora11g
+ls
+cd database
+ks
+ls
+ce rpm
+ls
+cd rmp
+ls
+ls -l
+cd rpm
+ls
+cd ..
+ls
+cd sshsetup
+ls
+cd ..
+s
+cat /proc/sys/net/ipv4/ip_local_port_range
+su - oracle
+clear
+unlimit -Sn
+ulimit -Sn
+ulimit -Hn
+ulimit -Su
+ulimit -Hu
+ulimit -Ss
+ulimit -Hs
+su - oracle
+chown -R 775 /u01/app/oracle
+su - oracle
+cd /
+ls
+ls -l
+cd /
+ls
+cd /u02
+ls
+ll
+cd /
+ls
+cd /u02
+ls
+cd oradata
+ls
+cd ..
+id oracle
+ir stps
+id stps
+ulimit -Sn
+ulimit -Hn
+ulimit -Su
+ulimit -Hu
+ulmit -Ss
+ulimit -Ss
+ulimit -Hs
+more /etc/security/limits.conf
+ more /proc/sys/kernel/sem
+more /proc/sys/kernel/shmall
+more /proc/sys/kernel/shmmax
+more /proc/sys/kernel/shmmni
+more /proc/sys/fs/file-max
+more /proc/sys/fs/aio-max-nr
+more /proc/sys/net/ipv4/ip_local_port_range
+more /proc/sys/net/core/rmem_default
+more /proc/sys/net/core/rmem_max
+more /proc/sys/net/core/wmem_default
+more /proc/sys/net/core/wmem_max
+/sbin/sysctl -a | grep sem
+more /etc/sysctl.conf
+more /etc/sysctl.d
+cd /etcc
+cd /etc
+ls
+cd sysctl.d
+ls
+ls -l
+more 99-sysctl.conf
+/sbin/sysctl -p
+/sbin/sysctl -a
+more /proc/sys/vm/hugetbl_shm_group
+ce /proc/sys/vm
+cd /proc/sys/vm
+ls
+more hugetlb_shm_group
+id oracle
+more  /etc/sysctl.conf
+clear
+id oracle
+cd 7
+cd /
+ls
+cd /u02
+ls
+cd ..
+cd /u03
+ls
+cd reco*
+ls
+cd ..
+ls
+rm recoveryLocation
+rm -r recoveryLocation
+ls
+mkdir recoveryLocation
+cd ..
+ls
+ls -l
+chown oracle:oinstall /u03/fast_recovery_area
+cd /u03
+ls
+ñ
+ls -l
+rm -r recoveryLocation
+ls -l
+mkdir fast_recovery_area
+ls -l
+chown oracle:oinstall fast_recovery_area
+ls -l
+chmod 775 fast_recovery_area
+ls -l
+cd ..
+ls -l
+chmod 775 u01
+chmod 775 u02
+chmod 775 u03
+ls
+ls -l
+who
+umask
+cd oracle/
+ls -la
+cd ..
+ls -la
+cd stps
+ls -la
+cd ..
+ls -la
+sudo mv mysql-community-release-el7-5.noarch.rpm glpi/
+ls -la
+cd glpi
+ls -la
+cd .
+cd ..
+ls -la
+more /etc/group
+more /etc/passwd
+clear
+cd ..
+cd ..
+ls -la
+cd u02
+ls -la
+sudo nano /etc/security/limits.conf
+sudo nano /etc/sysctl.conf
+su oracle
+sudo nano /etc/security/limits.conf
+su oracle
+clear
+su oracle
+ulimit -Sn
+ulimit -H
+sudo nano /etc/security/limits.conf
+sudo nano /etc/sysctl.conf
+sysctl -w fs.aio-max-nr = 1048576
+sysctl -w fs.aio-max-nr=1048576
+sudo nano /etc/sysctl.conf
+sudo nano /proc/sys/kernel/shmmax
+sudo nano /proc/sys/fs/file-max
+sysctl -w fs.file-max=6815744
+sudo nano /proc/sys/fs/file-max
+cat nano /proc/sys/fs/file-max
+cat /proc/sys/fs/file-max
+cat /proc/sys/kernel/shmall
+cat /proc/sys/kernel/shmax
+cat /proc/sys/kernel/shmmax
+cat /proc/sys/kernel/shmmni
+cat /proc/sys/kernel/sem
+ls -la
+cd /home
+ls -la
+cd oracle/
+ls -la
+sudo nano verifica_parametros.sh
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+clear
+sud oracle
+su oracle
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+clear
+sh verifica_parametros.sh 
+sudo nano verifica_parametros.sh
+sudo nano /etc/security/limits.conf
+su oracle
+id oracle
+echo 1004 > /proc/sys/vm/hugetlb_shm_group
+id oracle
+sudo cat /proc/sys/vm/hugetlb_shm_group
+sh verifica_parametros.sh 
+su oracle
+clear
+pwd
+ls -la
+stp$2020!
+su - oracle
+su - oracñe
+su - oracle
+who
+exit
+wich java
+java version
+find / -name java -type f -executable
+more /etc/sysctl.conf
+su - oracle
+exit
+su oracle
+ls -la
+cd /u01
+ls -la
+cd ..
+ls -la
+chmod -R 775 /u01
+ls -la
+cd u01
+ls -la
+cd app
+ls -la
+su - oracle
+yum -y install xorg-x11-utils
+grep DISPLAY ~/.bash_profile
+xdpyinfo | grep name
+xdpyinfo
+exit
+cd oracle
+cat .bash_profile 
+echo $JAVA_HOME
+echo $ORACLE_HOME $ORACLE_BASE $ORACLE_SID $TNS_ADMIN $DISPLAY $JAVA_HOME
+exit
+xclock
+xhost
+ls -la ~/.Xauthority
+exit
+xclock
+echo $DISPLAY
+xhost +
+exit
+sudo nano .bash_history 
+ls -la
+exit
+ls -la
+cd ..
+ls -la
+cd /root
+ls -la
+sudo nano .bash_history 
+exit
+su - oracle
+exit
+xclock
+su - oracle
+ssh -X -v oracle@172.18.121.127
+exit
+su - oracle
+java version
+which java
+cd /tmp
+ls
+ls -lrt
+more OraInstall2020-04-07_11-35-44AM
+cd OraInstall2020-04-07_11-35-44AM
+ls
+ll
+more installActions2020-04-07_11-35-44AM.log
+ /usr/bin/xdpyinfo
+wich java
+which java
+xhost +
+which xhost
+uname -a
+/usr/bin/xdpyinfo
+su - oracle
+passwd oracle
+xhost +
+xhost+
+/usr/bin/xdpyinf
+exit
+su - oracle
+exit
+id
+ssh -X localhost
+ssh -X localhost
+echo $DISPLAY
+/usr/bin/SMclient
+su - oracle
+export DISPALY=:0.0
+xhost +
+more /etc/hosts
+export DISPLAY=127.0.0.1:0.0
+xhost +
+/usr/bin/xdpyinf
+su - oracle
+xclock
+xhost
+echo $DISPLAY
+export DISPLAY=localhost:0.0
+xclock
+xhost
+more /etc/ssh/sshd_config
+ grep X11Forwarding  /etc/ssh/sshd_config
+xhost +
+ssh oracle@stps-desarrollo -X
+ grep X11Forwarding /etc/ssh/sshd_config
+grep X11DisplayOffset  /etc/ssh/sshd_config
+grep UseLocalhost  /etc/ssh/sshd_config
+more /etc/ssh/ssh_config
+grep Host /etc/ssh/ssh_config
+grep ForwardAgent /etc/ssh/ssh_config
+grep ForwardX11 /etc/ssh/ssh_config
+vi /etc/ssh/ssh_config
+grep Host /etc/ssh/ssh_config
+grep ForwardAgent /etc/ssh/ssh_config
+grep ForwardX11 /etc/ssh/ssh_config
+ssh -X localhost
+password root
+passwd root
+ssh -X localhost
+sudo su
+su - oracle
+exit
+su - oracle
+su - oracle
+ssh -X localhost
+echo $DISPLAY 
+export DISPLAY="localhost:0.0"
+echo $DISPLAY 
+xhost +localhost
+su - oracle
+sudo - oracle
+su - oracle
+sudo nano /etc/ssh/sshd_config
+su - oracle
+exit
+su - oracle
+exit
+sudo nano /etc/ssh/sshd_config
+sudo - oracle
+su - oracle
+sudo nano /etc/ssh/sshd_config
+su - oracle
+exit
+su - oracle
+export DISPLAY=:0;echo $DISPLAY; xhost +
+su - oracle

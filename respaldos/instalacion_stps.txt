@@ -1,0 +1,840 @@
+uname -a
+who am i
+df -k
+df -kh
+cd u01
+cd /oracle
+cksum linux.x64_11gR2_database_1of2.zip
+cksum linux.x64_11gR2_database_2of2.zip
+unzip linux.x64_11gR2_database_1of2.zip
+cd oracle
+chown oracle:oinstall linux.x64_11gR2_database_1of2.zip
+id
+echo
+ls
+sudo su -
+sudo su
+id
+sudo su
+is
+id
+sudo su
+exit
+more /etc/hosts
+exit
+sudo su -
+exit
+sudo su
+exit
+gedit
+echo $DISPLAY
+export DISPLAY=172.18.121.127:0.0
+echo $DISPLAY
+gedit
+freemind
+export DISPLAY=:0
+echo $DISPLAY
+cd /oracle
+ls
+cd database
+id
+sudo su -
+ls
+sudo su -
+exit
+cd /u01
+ls
+cd app
+ls
+pwd
+env
+sudo su -
+exit
+sudo su -
+exit
+who
+last
+sudo su -
+exit
+last
+ps -fea|grep ora_
+cd /tmp
+ls
+ll
+ls -lrt
+more OraInstall2020-02-28_12-50-03AM
+cd /u01
+ls
+cd app
+ls
+cd oracle
+ls
+cd ..
+cd oraInventory
+ks
+ls
+cd ..
+env
+cd ..
+ls
+cd Ora11g
+ls
+ll
+more db_install.rsp
+sudo su -
+exit
+clear
+sudo yum update httpd
+sudo yum install httpd
+sudo systemctl start httpd
+hostname -I
+curl -4 icanhazip.com
+cd /var/www
+cd html
+ls -la
+wget https://github.com/glpi-project/glpi/releases/download/9.3.0/glpi-9.3.tgz
+ls -la
+sudo wget https://github.com/glpi-project/glpi/releases/download/9.3.0/glpi-9.3.tgz
+ls -la
+sudo tar -xvzf glpi-9.3.tgz
+ls -la
+sudo chown -R www-data:www-data glpi
+sudo chkconfig httpd on
+sudo yum search mod_
+sudo yum install php php-pear
+php -v
+sudo yum remove php php-pear
+sudo yum install php-7.2 php-pear
+php -v
+sudo yum remove php php-pear
+hostnamectl
+uname
+sudo yum -y install epel-release
+sudo yum install epel-release
+sudo yum install yum-utils
+sudo yum search php72 | more
+sudo yum search php72 | egrep 'fpm|gd|mysql|memcache'
+sudo yum install php72
+sudo yum install php7.2
+sudo yum search php72 | egrep 'fpm|gd|mysql|memcache'
+sudo yum search php
+php -v
+sudo yum -y install epel-release
+sudo yum-config-manager --enable remi-php72
+sudo yum update
+sudo yum install php
+php -v
+sudo yum-config-manager --enable remi-php72sudo yum install epel-release
+sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+sudo yum install yum-utils
+sudo yum-config-manager --enable remi-php72
+sudo yum update
+sudo yum search php72 | more
+sudo yum search php72 | egrep 'fpm|gd|mysql|memcache'
+sudo yum install php72
+sudo yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache
+php -v
+sudo yum search mod_
+sudo yum update
+ls -la
+cd /home
+ls -la
+cd admlinux
+sudo useradd -m glpi
+ls -la
+cd glpi
+sudo passwd glpi
+su glpi
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+ls -la
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+yum update
+sudo yum update
+sudo yum install mysql-server
+mysql -V
+sudo mysql_secure_installation
+mysql -u root -p
+mysql -V
+sudo systemctl start mysqld
+sudo mysql_secure_installation
+sudo systemctl httpd restart
+sudo systemctl restart httpd
+cd /var
+cd www
+cd html/
+ls -la
+sudo chown -R apache:apache glpi
+ls -la
+php -i | grep "Loaded Configuration File"
+cd etc
+cd /etc
+ls -la
+cd httpd/
+ls -la
+sudo nano conf/httpd.conf 
+ls -la
+cd conf.d
+ls -la
+sudo nano php.conf 
+cd ..
+ls -la
+cd ..
+ls -la
+cd httpd/
+ls -la
+cd conf.modules.d/
+ls -la
+sudo nano 15-php.conf 
+cd ..
+cd conf.d
+ls -la
+sudo nano php.conf 
+cd ..
+ls -la
+cd php
+cd ..
+cd /etc
+cd php.d/
+ls -la
+cd ..
+dsudo apt-get install php7.2-ldap php7.2-imap php7.2-curl php7.2-mbstring php7.2-gd php7.2-xmlrpc php7.2-xsl php7.2-apcu php-cas 
+sudo yum install php7.2-ldap php7.2-imap php7.2-curl php7.2-mbstring php7.2-gd php7.2-xmlrpc php7.2-xsl php7.2-apcu php-cas 
+sudo yum search php7.2_
+sudo yum search php7.2
+sudo yum search php
+php -m
+sudo nano /etc/php.ini
+yum list installed | grep -i php  
+sudo yum list installed | grep -i php  
+sudo yum install php72-php-ldap
+sudo yum install php72-php-imap
+sudo yum install php72-php-apcu
+sudo yum install php72-php-xmlrpc
+sudo yum install php72-php-xml
+sudo yum install php72-php-cas
+sudo yum install php72-php-mysqli
+sudo yum install php72-php-mbstring
+sudo yum install php72-php-gd
+sudo systemctl httpd restart
+sudo systemctl restart httpd
+sudo nano /etc/php.ini
+cd /etc
+cd php.d
+ls -la
+sudo yum search mod_
+sudo yum search 
+yum search php72 |grep -i mysql
+sudo yum install php72-php-mysqlnd.x86_64
+yum search php72 |grep -i ldap
+sudo yum install php72-php-ldap.x86_64
+sudo yum install php72-php-imap.x86_64
+sudo yum install php72-php-apcu.x86_64
+sudo yum install php-imap.x86_64
+sudo yum install php-acpu.x86_64
+sudo yum install php-acpu
+sudo systemctl reload httpd
+sudo systemctl restart httpd
+php -i | grep "Loaded Configuration File"
+sudo nano /etc/php.INI
+sudo nano /etc/php.ini 
+yum-config-manager --enable remi-php72
+sudo yum-config-manager --enable remi-php72
+yum -y install httpd php php-mysql php-pdo php-gd php-mbstring php-imap php-ldap php-opcache php-xmlrpc php-xml php-pecl-apcu php-pear-CAS.noarch
+sudo yum -y install httpd php php-mysql php-pdo php-gd php-mbstring php-imap php-ldap php-opcache php-xmlrpc php-xml php-pecl-apcu php-pear-CAS.noarch
+firewall-cmd --permanent --add-port=80/tcp
+sudo firewall-cmd --permanent --add-port=80/tcp
+sudo firewall-cmd --reload
+sudo nano /etc/php.ini
+sudo systemctl restart httpd
+sudo yum install firewalld
+sudo systemctl start firewalld
+sudo firewall-cmd --reload
+sudo nano /etc/selinux/config
+yum -y install yum-utils
+sudo yum -y install yum-utils
+sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+sudo yum install certbot
+sudo certbot --apache
+pwd
+cd ..
+cd etc
+cd httpd/
+sudo certbot --apache
+cd /etc/php.d
+sudo certbot --apache
+cd ..
+cd /home
+cd glpi
+clear
+ls -la
+cd stps
+ls -la
+certbot certonly --standalone -d example.com <REEMPLAZAR POR EL HOST A CERTIFICAR>
+clear
+exit
+ls -la
+cd /var/www
+cd html/
+ls -la
+cd glpi/
+cd ..
+sudo mv glpi-9.3.tgz /home/glpi
+ls -la
+cd glpi
+git
+sudo yum install git
+git
+git init
+sudo git init
+ls -la
+sudo git remote add origin https://github.com/herlbeng/glpi_infotec_stps.git
+git remote -v
+git pull -u origin master
+sudo git pull -u origin master
+git status
+sudo yum remove certbot
+clear
+cd /etc/httpd/
+ls -la
+cd conf
+ls -la
+cd ..
+cd conf.d
+ls -la
+cd ..
+cd conf
+sudo nano httpd.conf 
+cd ..
+ls -la
+cd ..
+cd httpd/
+ls
+cd conf.d/
+ls
+vim userdir.conf 
+vim php.conf 
+yum install mod_ssl
+sudo yum install mod_ssl
+ls
+cs ssl.conf 
+vim ssl.conf 
+cd /tmp/
+ls
+cp certs/ /etc/httpd/
+cp -r certs/ /etc/httpd/
+sudo cp -r certs/ /etc/httpd/
+cd /etc/httpd/
+ls
+cd certs/
+pwd
+ls
+cd..
+cd ..
+ls
+cd conf.d
+ls
+vim ssl.conf 
+sudo nano ssl.conf 
+sudo systemctl restart httpd
+cd /var/www
+cd html/
+cd glpi
+ls -la
+sudo git pull origin master
+sudo git add css/styles.css
+sudo git add css/styles.min.css
+sudo git commit -m "prepara styles"
+sudo git pull origin master
+ls -la
+sudo nano bitacora.txt
+git add bitacora.txt
+sudo git add bitacora.txt
+sudo git commit -m "prepara styles"
+sudo git config --system user.name "Hermann Benda"
+sudo git config --system user.mail "hbenda_infotec@gmail.com"
+sudo git commit -m "prepara styles"
+sudo git config --global user.mail "hbenda_infotec@gmail.com"
+sudo git config --global user.name "Hermann Benda"
+sudo git commit -m "prepara styles"
+sudo git config user.mail "hbenda_infotec@gmail.com"
+sudo git config user.name "Hermann Benda"
+sudo git commit -m "prepara styles"
+sudo git config --global user.name ""
+sudo git config --global user.mail ""
+sudo git commit -m "prepara styles"
+sudo git pull origin master
+sudo git commit -m "prepara styles"
+git config --list
+sudo git config --global user.mail
+sudo git config --global user.name
+git config --list
+sudo git config --system user.name
+sudo git config --system user.mail
+sudo git config --system user.mail =""
+sudo git config --system user.mail
+sudo git config --system user.mail ""
+sudo git config --system user.mail
+sudo git config --system --unset user.name
+sudo git config --system --unset user.mail
+sudo git config --global --unset user.mail
+sudo git config --global --unset user.name
+git config --list
+sudo git commit -m "prepara styles"
+sudo git config user.email "hbenda_infotec@gmail.com"
+sudo git commit -m "prepara styles"
+sudo git pull origin master
+cd pics
+ls -la
+ls -la fd_logo*
+sudo cp fd_logo.png fd_logo.bak
+sudo cp fd_logo_blanco.png fd_logo.png 
+ls -la fd_logo*
+sudo git status
+cd ..
+sudo git status
+sudo git add README.md
+sudo git commit -m "README.md"
+sudo git merge
+sudo git merge origin master
+sudo git pull -u origin master
+sudo git rm css/styles.css
+sudo git rm --cached css/styles.css
+sudo git rm --cached css/styles.min.css
+sudo git rm --cached pics/fd_logo_blanco.png
+sudo git rm --cached README.md
+sudo git c
+sudo git commit -m "merge"
+sudo git merge origin master
+sudo git merge
+git status
+sgit reset --hard origin/master
+sudo git fetch --all
+sudo git reset --hard origin/master
+cd plugins/
+ls -la
+sudo rm -rf dashboard/
+sudo unzip GLPI-dashboard_plugin-0.9.6.zip 
+ls -la
+cd ..
+ls -la
+cd ..
+sudo chown -R apache:apache glpi/
+cd glpi
+ls -la
+cd config
+ls -la
+sudo nano config_db.php 
+cd ..
+ls -la
+cd config/
+ls -la
+cd ..
+cd /etc
+sudo yum update
+sudo yum install ssmtp
+cd ssmtp/
+sudo cd ssmtp/
+ls -la
+pwd
+cd ssmtp
+ls -la
+cd yum
+ls -la
+cd ..
+cd sstmp
+cd ssmtp/
+sudo su
+exit
+date
+sudo systemctl stop apache
+sudo systemctl stop httpd
+date
+date --set "2020-03-05 10:07"
+sudo date --set "2020-03-05 10:07"
+sudo hwclock --set --date="2020-03-05 10:07"
+date
+sudo systemctl start httpd
+clear
+cd /etc
+cd ssmtp
+sudo su -
+clear
+ls -la
+sudo nano /etc/httpd/httpd.conf
+sudo nano /etc/httpd/conf
+sudo nano /etc/httpd/conf/httpd.conf 
+sudo apachectl -t -D DUMP_MODULES | grep mpm
+sudo nano /etc/httpd/conf/httpd.conf 
+sudo apachectl restart
+top -o %MEM -d 2
+top -o %MEM -d 5
+sudo systemctl stop httpd
+sudo nano /etc/httpd/conf/httpd.conf 
+sudo systemctl start httpd
+clear
+ping glpi.infotec.mx/glpi
+ping glpi.infotec.mx
+sudo ping glpi.infotec.mx
+cd /var/wwww
+cd /var/www
+cd html/
+cd glpi
+ls -la
+cd plugins/
+ls -la
+sudo rm -rf tasklists/
+sudo rm -rf mydashboard-master/
+sudo rm mydashboard-master.zip
+sudo rm glpi-tasklists.1.4.2.tar.gz 
+ls -la
+cd ..
+ls -la
+cd /var/www/html/
+cd glpi
+ls -la
+cd install/
+ls -la
+sudo mv install.php install.bak 
+ls -la
+cd mysql/
+ls -la
+cat glpi-empty.sql 
+cd ..
+ls -la
+cd ..
+top -o %MEM -d 2
+top -o %MEM -d 5
+sudo mysqldump -u root -p glpi > glpi_PRD_0603.sql
+sudo su -
+cd /var/www/html/glpi/
+sudo git add glpi_PRD_0603.sql
+sudo git commit -m "Respaldo Viernes 06-03 17:00"
+sudo git push origin master
+exit
+cd /var/www/html/glpi/plugins/dashboard/
+ls -la
+cd front/
+ls -la
+sudo nano index.php 
+sudo nano index1.php 
+sudo nano index2.php 
+sudo nano index1.php 
+sudo nano index2.php 
+sudo mysql -u root -p 
+ps -fea|grep oracle
+sudo su -
+exit
+clear
+php phpinfo();
+php phpinfo()
+php <? phpinfo(); ?>
+clear
+php -i
+who
+exit
+uname -a
+who
+exit
+sudo mysqldump -u root -p glpi > glpi_PRD_2603.sql
+ls -la
+sudo git add glpi_PRD_2603.sql
+sudo git remote -v
+sudo mv glpi_PRD_2603.sql /var/www/html/glpi/
+ls -la
+cd /var/www/html/glpi/
+ls -la
+sudo mkdir -p respaldos
+ls -la
+sudo chwon -R apache:apache *
+sudo chown -R apache:apache *
+ls -la
+sudo mv glpi_PRD_* respaldos/
+ls -la
+cd respaldos
+ls -la
+cd ..
+ls -la
+sudo git add respaldos/
+ls-la
+ls -la
+git status
+git add respaldos/glpi_PRD_2603.sql
+sudo git add respaldos/glpi_PRD_2603.sql
+git status
+git commit -m "Respaldo BD 26-03-2020"
+sudo git commit -m "Respaldo BD 26-03-2020"
+sudo git push origin master
+clear
+sudo yum install binutils-2.23.52.0.1-12.el7.x86_64 
+sudo yum install binutils-2.23.52.0.1-12.el7.x86_64
+sudo yum install compat-libcap1-1.10-3.el7.x86_64 
+sudo yum install compat-libcap1.i686 
+sudo yum install binutils.x86_64 
+sudo yum install binutils-x86_64-linux-gnu.x86_64 
+sudo y
+sudo yum install gcc-x86_64-linux-gnu.x86_64 
+sudo yum install gcc-c++-x86_64-linux-gnu.x86_64 
+ top -o %MEM -d 5
+sudo yum install glibc-utils.x86_64 
+sudo yum install glibc-devel.i686 
+sudo yum install glibc-static.x86_64 
+sudo yum install glibc-static.i686 
+sudo yum install glib.x86_64 
+sudo yum install glib-devel.x86_64 
+sudo yum install ksh
+sudo yum install libaio.i686 
+sudo yum install libaio-devel.i686 
+sudo yum install libstdc++.i686 
+sudo yum install libstdc++-devel.i686 
+sudo yum install libstdc++-static.i686 
+sudo yum install libstdc++-static.x86_64 
+sudo yum install libstdc++-docs.x86_64 
+sudo yum install libXi.i686 
+sudo yum install libXi.x86_64 
+sudo yum install libXtst.i686 
+sudo yum install libXtst.x86_64 
+sudo yum install sysstat.x86_64 
+sudo su -
+exit
+df -k
+who
+df -k
+sudo su -
+exit
+sudo su -
+exit
+sudo su -
+exit
+df -k
+sudo su -
+exit
+sudo su -
+ls
+cat /proc/sys/net/ipv4/ip_local_port_range
+ping stps-desarrollo
+cat /sys/kernel/mm/redhat_transparent_hugepage/enabled
+grep dba /etc/group
+grep oinstall /etc/group
+grep oracle /etc/user
+grep oracle /etc/password
+grep oracle /etc/passwd
+id
+sudo su - 
+more /etc/sysctl.conf
+/sbin/sysctl -a |grep sem
+ /sbin/sysctl -a|grep shm
+more /proc/sys/kernel/sem
+more /proc/sys/kernel/shmall
+more /proc/sys/kernel/shmmax
+more /proc/sys/kernel/shmmni
+more /proc/sys/fs/file-max
+more /proc/sys/fs/aio-max-nr
+more /proc/sys/net/ipv4/ip_local_port_range
+more /proc/sys/net/core/rmem_default
+more /proc/sys/net/core/rmem_max
+more /proc/sys/net/core/wmem_default
+more /proc/sys/net/core/wmem_max
+pwd
+sudo su -
+sudo su -
+sudo su - 
+cd /
+sudo su -
+celar
+clear
+ls -la
+ulimit -Sn
+ ulimit -Hn
+ulimit -Ss
+ulimit -Hs
+sudo nano  /etc/security/limits.conf
+ulimit -c 0
+ulimit -Sn
+ ulimit -Hn
+ulimit -Ss
+ulimit -Hs
+celar
+ ulimit -Hn
+sudo nano  /etc/security/limits.conf
+cd /home
+ls -la
+cd oracle/
+sudo su
+who
+who am i
+sudo su - 
+exit
+echo DISPLAY
+echo $DISPLAY
+id
+sudo su -
+who
+exit
+echo "SIN XTERM"
+which java
+javca - version
+java -version
+sudo su -
+exit
+java -version
+sudo yum install java-11-openjdk-devel
+java -version
+sudo yum install java-11-openjdk-devel-debug.x86_64 
+sudo yum install java-11-openjdk-devel-debug.i686 
+java -version
+sudo alternatives --config java
+cd /home
+ls -la
+cd stps/
+ls -la
+wget https://download.oracle.com/otn/java/jdeveloper/12.2.1.4.0/jdev_suite_122140_linux64.bin
+ls -la
+wget https://download.oracle.com/otn/java/jdeveloper/12.2.1.4.0/jdev_suite_122140_linux64-2.zip
+ls -la
+wget https://download.oracle.com/otn/nt/middleware/14c/14110/fmw_14.1.1.0.0_wls_Disk1_1of1.zip
+ls -la
+unzip fmw_14.1.1.0.0_wls_Disk1_1of1.zip 
+sudo rm fmw_14.1.1.0.0_wls_Disk1_1of1.zip 
+sudo rm jdev_suite_122140_linux64*
+ls- l
+ls -la
+wget https://download.oracle.com/otn/nt/middleware/14c/14110/fmw_14.1.1.0.0_wls_Disk1_1of1.zip
+ls -la
+sudo rm fmw_14.1.1.0.0_wls_Disk1_1of1.zip 
+ip oracle
+id oracle
+more groups
+more group
+sudo yum install xorg-x11-
+ls -la
+sudo rm fmw_14.1.1.0.0_wls_Disk1_1of1.zip*
+ls -la
+ls -la
+sudo rm fmw_14.1.1.0.0_wls_Disk1_1of1.zip\?project\=stps-268719*
+ls -la
+su oracle
+su - oracle
+su
+sudo su
+exit
+ls -la
+xdpinfo
+xdpyinfo
+echo $DISLAY
+exit
+ls -la
+echo $DISLAY
+xdpyinfo
+su - oracle
+ls -la
+su - oracle
+ls -la
+cat .bash_profile 
+cd ..
+ls -la
+cd oracle/
+sudo su
+echo $ORACLE_HOME $ORACLE_BASE $ORACLE_SID $TNS_ADMIN $DISPLAY $JAVA_HOME
+xhost +
+sudo su
+ls -la ~/.Xauthority
+sudo - oracle
+su - oracle
+xauth
+yum install xorg-x11-xauth.x86_64 
+sudo yum install xorg-x11-xauth.x86_64 
+sudo yum install xorg-x11-apps.x86_64 
+sudo yum install xorg-x11-xinit.x86_64 
+sudo yum install xorg-x11-xinit-session.x86_64 
+sudo yum install xorg-x11-drivers.x86_64 
+sudo yum install xorg-x11-server-devel.x86_64 
+xauth
+xhost
+xhost +
+exit
+xauth list
+sudo su
+sudo - oracle
+su - oracle
+sudo su
+exit
+sudo su -
+exit
+sudo su
+sudo su -
+exit
+localhost
+ping localhosts
+ping localhost
+sudo su -
+exit
+last
+uname -a
+exit
+uname -a
+sudo su -
+xit
+exit
+sudo su -
+
+sudo nano .bash_history 
+sudo date
+sudo date --set "2020-04-16 09:427"
+sudo date --set "2020-04-16 09:43"
+date
+sudo nano .bash_history 
+sudo hwclock --set --date="2020-04-16 09:45"
+ls -la
+clear
+xauth
+xhost +
+exit
+xauth
+xhost +
+ssh -X localhost
+echo $DISPLAY
+sudo su -
+xhost +
+sudo su -
+xhost +
+
+export DISPLAY=:0.0
+echo $DISPLAY
+export DISPLAY=localhost:0.0
+echo $DISPLAY
+sudo - oracle
+su - oracle
+echo $DISPLAY
+exit
+
+ifconfig
+echo $DISPLAY
+export DISPLAY=127.0.0.1:0.0
+echo $DIS|
+echo $DISPLAY 
+su - oracle
+exit
+sudo su
+exit
+sudo su
+su - oracle
+exit
+su - oracle
+ID
+id
+su - oracle
+df -k
+id
+sudo su -
+cd /
+ls
+cd u02
+ls
+cd /u03
+ls
+ssh -v -X stps@172.18.121.127
+id
+su - oracle
+id
+sudo su -
